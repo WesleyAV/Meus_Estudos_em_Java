@@ -19,7 +19,7 @@ public class Exer_07 {
 
         double area = lado * lado;
 
-        System.out.println("A área é de: " + (area * 2));
+        System.out.println("O dobro da área é de: " + (area * 2));
 
     }
 }
