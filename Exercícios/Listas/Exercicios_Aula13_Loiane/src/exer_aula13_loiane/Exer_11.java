@@ -19,18 +19,18 @@ public class Exer_11 {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Digite um número do tipo inteiro: ");
-        double num1 = scan.nextDouble();
+        int num1 = scan.nextInt();
 
         System.out.println("Digite o segundo número do tipo inteiro: ");
-        double num2 = scan.nextDouble();
+        int num2 = scan.nextInt();
 
         System.out.println("Digite o terceiro número do tipo real: ");
-        int num3 = scan.nextInt();
+        double num3 = scan.nextDouble();
 
-        double a = (num1 * 2) + (num2 / 2);
+        int a = (num1 * 2) * (num2 / 2);
         double b = (num1 * 3) + num3;
-        double c = (num3 * num3 * num3);
-        
+        double c = Math.pow (num3, 3);
+
         System.out.println("o produto do dobro do primeiro com metade do segundo é: " + a);
         System.out.println("A soma do triplo do primeiro com o terceiro é: " + b);
         System.out.println("O terceiro elevado ao cubo é: " + c);
